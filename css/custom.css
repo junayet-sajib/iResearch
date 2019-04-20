@@ -1,17 +1,22 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .video-responsive {
   overflow: hidden;
   padding-bottom: 56.25%;
   position: relative;
   height: 0;
+  margin: 0 auto;
+  vertical-align: middle;
 }
 
 .video-responsive iframe {
-  left: 0;
-  top: 0;
+
   height: 100%;
   width: 100%;
   position: absolute;
-  padding: 50px;
+  padding: 5rem 11rem;
 
 }
 
@@ -20,4 +25,9 @@
   width: auto;
   align-items: center;
   display: flex;
+}
+
+.section.background-dark.full-width img {
+  padding: 2rem;
+  max-height: 411px;
 }
