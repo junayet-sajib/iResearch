@@ -27,7 +27,7 @@ html {
   display: flex;
 }
 
-.section.background-dark.full-width img {
+section.background-dark.full-width img {
+  max-height: 408px;
   padding: 2rem;
-  max-height: 411px;
 }
